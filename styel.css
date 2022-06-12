@@ -1,0 +1,104 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px,auto;
+    display: grid;
+    
+    grid-template-columns: 300px 700px;
+    
+    
+}
+.left-section{
+    
+    padding: 1rem;
+    color: antiquewhite;
+    background: #095079;
+}
+
+.profile-image{
+    display:block;
+    margin: auto;
+    width: 60%;
+    border:5px ;
+    border-radius: 30%;
+
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem ;
+    color: blanchedalmond;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+
+}
+.description{
+    font-size:0.75rem ;
+    text-align:center;
+    padding: 1rem;
+}
+
+   
+   
+.icon{   
+    border: 1px solid white;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.skills{
+    float: none;
+    font-size:0.75rem ;
+    text-align:center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom:  1rem;
+    padding-left:0.5rem ;
+    padding-right:0.5rem ;
+    text-align: center;
+
+}
+.skill-name{
+    font-size:0.65rem ;
+    text-align:left;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px,white solid;
+    height: 4px;
+
+}
+.right-section{
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: #ffc500
+}
+.right-title{
+    font-size:1.2rem ;
+    font-weight:700 ;
+    text-transform: uppercase;
+    padding:0.5rem;
+    letter-spacing:1px;
+}
+
+
+@media screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
